@@ -1,0 +1,24 @@
+#preloader{
+    width: 100%;
+    height: 100vh;
+    background: #000 url(https://c.tenor.com/FBeNVFjn-EkAAAAC/ben-redblock-loading.gif) no-repeat center center ;
+    position: fixed;
+    background-size: 15%;
+    z-index: 100;
+}
+#loginhead{
+    font-style: italic;
+    color: brown;
+}
+#box{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+
+}
+#background{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
