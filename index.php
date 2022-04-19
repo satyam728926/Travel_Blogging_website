@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Material Design for Bootstrap</title>
+  <title>Travel Blogging Website</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
   <!-- Google Fonts Roboto -->
@@ -13,7 +13,7 @@
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css" />
+ 
 </head>
 
 <body>
@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+        <a class="navbar-brand" target="_blank" >
           <img src="C:\Users\satyam pandey\Desktop\tbm_logo_black.png" height="30" alt="" loading="lazy" style="margin-top: -3px;" />
         </a>
         <button class="navbar-
@@ -50,33 +50,31 @@
             <li class="nav-item active">
               <a class="nav-link" aria-current="page" href="#intro">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank">Learn Bootstrap 5</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Download MDB UI KIT</a>
+              <a class="nav-link" target="_blank">Choose Category</a>
             </li>
           </ul>
 
           <ul class="navbar-nav d-flex flex-row">
             <!-- Icons -->
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank">
+              <a class="nav-link"  rel="nofollow" target="_blank">
                 <i class="fab fa-youtube"></i>
               </a>
             </li>
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
+              <a class="nav-link" rel="nofollow" target="_blank">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+              <a class="nav-link"rel="nofollow" target="_blank">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+              <a class="nav-link"rel="nofollow" target="_blank">
                 <i class="fab fa-github"></i>
               </a>
             </li>
@@ -95,9 +93,9 @@
 
       <!-- Jumbotron -->
       <div id="intro" class="p-5 text-center bg-light">
-        <h1 class="mb-3 h2">GO FRO TRAVEL WITH TBM</h1>
+        <h1 class="mb-3 h2">GO FOR TRAVEL WITH TBM</h1>
         <p class="mb-3">Best & free guide of travel blog</p>
-        <a class="btn btn-primary m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button" rel="nofollow" target="_blank">Start travel tutorial</a>
+        <a class="btn btn-primary m-2" role="button" rel="nofollow" target="_blank">choose city</a>
       </div>
       <!-- Jumbotron -->
       <!--Section: Content-->
@@ -248,11 +246,9 @@
   <!--Footer-->
   <footer class="bg-light text-lg-start">
     <div class="py-4 text-center">
-      <a role="button" class="btn btn-primary btn-lg m-2" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank">
-        Learn Bootstrap 5
+      <a role="button" class="btn btn-primary btn-lg m-2">
       </a>
-      <a role="button" class="btn btn-primary btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank">
-        Download TBM UI KIT
+      <a role="button" class="btn btn-primary btn-lg m-2"  target="_blank">
       </a>
     </div>
 
@@ -260,16 +256,16 @@
 
     <div class="text-center py-4 align-items-center">
       <p>Follow TBM on social media</p>
-      <a href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" class="btn btn-primary m-1" role="button" rel="nofollow" target="_blank">
+      <a class="btn btn-primary m-1" role="button" rel="nofollow" target="_blank">
         <i class="fab fa-youtube"></i>
       </a>
-      <a href="https://www.facebook.com/mdbootstrap" class="btn btn-primary m-1" role="button" rel="nofollow" target="_blank">
+      <a  class="btn btn-primary m-1" role="button" rel="nofollow" target="_blank">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a href="https://twitter.com/MDBootstrap" class="btn btn-primary m-1" role="button" rel="nofollow" target="_blank">
+      <a  class="btn btn-primary m-1" role="button" rel="nofollow" target="_blank">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://github.com/mdbootstrap/mdb-ui-kit" class="btn btn-primary m-1" role="button" rel="nofollow" target="_blank">
+      <a  class="btn btn-primary m-1" role="button" rel="nofollow" target="_blank">
         <i class="fab fa-github"></i>
       </a>
     </div>
@@ -277,7 +273,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">TBMBootstrap.com</a>
+      <a class="text-dark" >TBM.com</a>
     </div>
     <!-- Copyright -->
   </footer>
